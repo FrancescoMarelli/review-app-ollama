@@ -1,11 +1,23 @@
 server:
-  port: 8080
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
+  port: 8080  # Puerto del API Gateway
 
 spring:
   application:
     name: api-gateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: ollama-service
+          uri: lb://OLLAMA-SERVICE
+          predicates:
+            - Path=/ollama/**
+          filters:
+            - StripPrefix=1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
