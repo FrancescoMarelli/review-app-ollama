@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: review-service
+    server:
+      port: 8080
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/review-db
+    username: user
+    password: pass
+    driver-class-name: org.postgresql.Driver
+
+  liquibase:
+    change-log=classpath:db/changelog/db.changelog-master.xml
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  springdoc:
+    api-docs:
+      path: /api-docs
+    swagger-ui:
+      path: /swagger-ui.html
+      operationsSorter: method
+      tagsSorter: alpha
+      disable-swagger-default-url: true
+    show-actuator: true  # Muestra endpoints de Actuator si los tienes
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.springframework: INFO

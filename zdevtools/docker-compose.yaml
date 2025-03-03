@@ -1,0 +1,38 @@
+services:
+  reviewapp-db:
+    image: postgres:15
+    networks:
+      - reviewapp-network
+    environment:
+      POSTGRES_USER: user  # Nombre de usuario
+      POSTGRES_PASSWORD: pass  # Contraseña
+      POSTGRES_DB: review-db  # Nombre de la base de datos
+    ports:
+      - "5432:5432"
+    volumes:
+      - reviewapp_data:/var/lib/postgresql/data
+
+  review-service:
+    image: review-service:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - reviewapp-network
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://reviewapp-db:5432/${POSTGRES_DB}
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER}
+      SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD}
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_DOC_API_DOCS_PATH: /api-docs
+      SPRING_DOC_SWAGGER_UI_PATH: /swagger-ui.html
+    ports:
+      - "8080:8080"
+      - "5005:5005"
+    depends_on:
+      - reviewapp-db
+
+networks:
+  reviewapp-network:
+volumes:
+  reviewapp_data:

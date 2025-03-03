@@ -1,0 +1,3 @@
+com\portfolio\deepseek\application\OllamaService.class
+com\portfolio\deepseek\infrastructure\rest\OllamaController.class
+com\portfolio\deepseek\DeepSeekApplication.class
