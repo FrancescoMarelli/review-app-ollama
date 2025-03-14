@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: eureka-server
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    health-check-url-path: /actuator/health
+  server:
+    enable-self-preservation: true
+    dashboard: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+

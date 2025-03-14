@@ -8,7 +8,6 @@ import org.springframework.stereotype.Repository;
 import java.util.UUID;
 
 @Repository
-public interface ReviewJpaRepository extends JpaRepository<ReviewEntity, String>,
-    JpaSpecificationExecutor<ReviewEntity> {
+public interface ReviewJpaRepository extends JpaRepository<ReviewEntity, String>, JpaSpecificationExecutor<ReviewEntity> {
     void delete(UUID reviewId);
 }

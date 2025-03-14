@@ -4,117 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d938b16-72f7-475e-9010-fa6d97b52e24" name="Changes" comment="" />
+    <list default="true" id="f6a62557-e838-4d83-a4a5-edc9a3e4b219" name="Changes" comment=".gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepseek/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deepseek/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/com/portfolio/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/java/com/portfolio/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review/src/main/java/com/portfolio/review/domain/model/filter/ReviewFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/review/src/main/java/com/portfolio/review/domain/model/filter/ReviewFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review/src/main/java/com/portfolio/review/infrastructure/out/persistence/repository/ReviewJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/review/src/main/java/com/portfolio/review/infrastructure/out/persistence/repository/ReviewJpaRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Dockerfile" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FormatOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="false" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="OptimizeOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2tJbjp0WqzBZbWUwMtPbMDsgcWU" />
+  <component name="ProjectId" id="2trcJypH2Zzs8LN3V3OLzTdb34Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.DeepSeekApplication.executor": "Run",
-    "Application.ReviewApplication.executor": "Run",
-    "Docker.review/docker-compose.yaml.reviewapp-db: Compose Deployment.executor": "Run",
-    "Docker.review/docker-compose.yaml: Compose Deployment.executor": "Run",
-    "Docker.z-devtools/docker-compose.yaml.review-service: Compose Deployment.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Application.ApiGatewayApplication.executor": "Run",
+    "Application.EurekaServerApplication.executor": "Run",
     "Maven.api-gateway [clean].executor": "Run",
-    "Maven.apigateway [clean].executor": "Run",
-    "Maven.apigateway [install].executor": "Run",
-    "Maven.deepseek [clean].executor": "Run",
-    "Maven.deepseek [install].executor": "Run",
-    "Maven.deepseek [validate].executor": "Run",
+    "Maven.api-gateway [install].executor": "Run",
     "Maven.eureka [clean].executor": "Run",
-    "Maven.eureka-server [clean].executor": "Run",
-    "Maven.eureka-server [install].executor": "Run",
-    "Maven.review [clean].executor": "Run",
-    "Maven.review-app [clean].executor": "Run",
-    "Maven.review-app [install].executor": "Run",
-    "Maven.review-app [validate].executor": "Run",
+    "Maven.eureka [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/crerr/OneDrive/Desktop/review/src/main/java",
-    "last_opened_file_path": "C:/Users/crerr/OneDrive/Desktop/review-app/DeepSeek-R1-main",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors"
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.portfolio.review.infrastructure.out.persistence.adapter" />
-      <recent name="com.portfolio.review.domain.model.filter" />
-      <recent name="com.portfolio.review.application.mapper" />
-      <recent name="com.portfolio.review.infrastructure.out.persistence.mapper" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\crerr\OneDrive\Desktop\review-app\zdevtools" />
-      <recent name="C:\Users\crerr\OneDrive\Desktop\z-devtools" />
-      <recent name="C:\Users\crerr\OneDrive\Desktop\review-app\user\src\main\com.portfolio.user" />
-      <recent name="C:\Users\crerr\OneDrive\Desktop\review\src\main\com.portfolio.review" />
-      <recent name="C:\Users\crerr\OneDrive\Desktop\review-app\product\src\main\com.portfolio.product" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\crerr\OneDrive\Desktop\review-app\user\src\main\java\com.portfolio.user" />
-      <recent name="C:\Users\crerr\OneDrive\Desktop\review-app\user\src\main\java" />
-      <recent name="C:\Users\crerr\OneDrive\Desktop\review\src\main\java" />
-      <recent name="C:\Users\crerr\OneDrive\Desktop\review-app\product\src\main\java" />
-      <recent name="C:\Users\crerr\OneDrive\Desktop\review-app\notifications\src\main\java" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.DeepSeekApplication">
-    <configuration name="DeepSeekApplication" type="Application" factoryName="Application" nameIsGenerated="true">
-      <envs>
-        <env name="DEEPSEEK-APIKEY" value="sk-4f9e7830e7074a678279d9cb6c6d9d1b" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="com.portfolio.deepseek.DeepSeekApplication" />
-      <module name="deepseek" />
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.portfolio.apigateway.ApiGatewayApplication" />
+      <module name="api-gateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.portfolio.deepseek.*" />
+          <option name="PATTERN" value="com.portfolio.apigateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReviewApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.portfolio.review.ReviewApplication" />
-      <module name="review" />
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.portfolio.eurekaserver.EurekaServerApplication" />
+      <module name="eureka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.portfolio.review.*" />
+          <option name="PATTERN" value="com.portfolio.eurekaserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,87 +80,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="review" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="review" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="review/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="../review/docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="review/docker-compose.yaml.reviewapp-db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="reviewapp-db" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="../review/docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="z-devtools/docker-compose.yaml.review-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="review-service" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="z-devtools/docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Application.DeepSeekApplication" />
-      <item itemvalue="Application.ReviewApplication" />
-      <item itemvalue="Docker.review/docker-compose.yaml.reviewapp-db: Compose Deployment" />
-      <item itemvalue="Docker.review/docker-compose.yaml: Compose Deployment" />
-      <item itemvalue="Docker.z-devtools/docker-compose.yaml.review-service: Compose Deployment" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.z-devtools/docker-compose.yaml.review-service: Compose Deployment" />
-        <item itemvalue="Docker.review/docker-compose.yaml.reviewapp-db: Compose Deployment" />
-        <item itemvalue="Application.ReviewApplication" />
-        <item itemvalue="Docker.review/docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6d938b16-72f7-475e-9010-fa6d97b52e24" name="Changes" comment="" />
-      <created>1740073262038</created>
+      <changelist id="f6a62557-e838-4d83-a4a5-edc9a3e4b219" name="Changes" comment=".gitignore" />
+      <created>1741113577668</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740073262038</updated>
+      <updated>1741113577668</updated>
     </task>
     <servers />
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=".gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
   </component>
 </project>

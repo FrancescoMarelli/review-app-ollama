@@ -10,7 +10,6 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 public class ReviewFilter {
-
     private String userId;
     private Integer points;
     private LocalDateTime date;

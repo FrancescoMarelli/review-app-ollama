@@ -3,7 +3,8 @@
 *.iml
 *.iws
 out/
-
+workspace.xml
+.gitignore
 # Archivos de compilación
 /target/
 *.class
@@ -35,3 +36,4 @@ tmp/
 
 # Docker y archivos relacionados
 .dockerignore
+

@@ -1,23 +1,32 @@
-server:
-  port: 8080  # Puerto del API Gateway
-
 spring:
+  main:
+    web-application-type: reactive
   application:
     name: api-gateway
 
   cloud:
     gateway:
-      routes:
-        - id: ollama-service
-          uri: lb://OLLAMA-SERVICE
-          predicates:
-            - Path=/ollama/**
-          filters:
-            - StripPrefix=1
-
+      discovery:
+        locator:
+          enabled:  true
 eureka:
   client:
+    register-with-eureka: true
+    fetch-registry: true
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka
+  server:
+    enable-self-preservation: true
+    dashboard: true
   instance:
-    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
+
+server:
+  port:
+    8082
+
+
+  logging:
+    level:
+      com.netflix.discovery: DEBUG
+      com.netflix.eureka: DEBUG
